@@ -25,5 +25,10 @@ class BibleApiController extends Controller
         $verses = BibleApp::where('book_name', $book)->where('chapter', $chapter)->get();
         return response()->json($verses);
     }
-}
 
+    public function Apishowverse($book, $chapter, $verse)
+    {
+        $individual_verses = BibleApp::where('book_name', $book)->where('chapter', $chapter)->where('verse', $verse)->get();
+        return response()->json($individual_verses);
+    }
+}
