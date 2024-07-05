@@ -38,9 +38,9 @@
     </style>
 <body>
     <h1>King James Version Bible</h1>
-    <form action="{{ route('search') }}" method="GET">
-        <input type="text" name="query" placeholder="Search for a word...">
-        <button type="submit">Search</button>
+     <form action="{{ route('search') }}" method="GET" class="search-form">
+        <input type="text" name="query" placeholder="Search for a word..." class="search-input">
+        <button type="submit" class="search-button">Search</button>
     </form>
 
     <ul class="container">
