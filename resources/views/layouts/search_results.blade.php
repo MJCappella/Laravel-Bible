@@ -4,6 +4,8 @@
     <title>Search Results</title>
 </head>
 <body>
+    <a href="{{ url('/') }}">Back to Home</a>
+
     <h1>Search Results for "{{ $query }}"</h1>
 
     @if($results->isEmpty())
@@ -19,6 +21,5 @@
         </ul>
     @endif
 
-    <a href="{{ url('/') }}">Back to Home</a>
 </body>
 </html>
