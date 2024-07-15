@@ -28,6 +28,22 @@
             text-decoration: none;
             font-size: 20px;
         }
+
+        
+        footer {
+            position: fixed;
+            font-size: 14px;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+            font-size: 20px;
+            background-color: #f1f1f1;
+            color: #4d4d4d;
+            text-align: center;
+            line-height: 50px;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
@@ -37,5 +53,6 @@
             <li class="card">{{ $verse->text}}</li>
         @endforeach
     </ol>
+    <footer>All rights reserved 2024</footer>
 </body>
 </html>
