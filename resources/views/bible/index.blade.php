@@ -76,6 +76,18 @@
             background-color: #0056b3;
         }
 
+        footer{
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+            font-size: 14px;
+            color: #4d4d4d;
+            border-top: 1px solid #ddd;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
     </style>
 <body>
     <h1>King James Version Bible</h1>
@@ -93,6 +105,7 @@
             </li>
         @endforeach
     </ul>
+    <footer>All rights reserved 2024</footer>
 </body>
 </html>
 
