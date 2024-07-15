@@ -76,16 +76,19 @@
             background-color: #0056b3;
         }
 
-        footer{
-            text-align: center;
-            padding: 10px;
-            background-color: #f1f1f1;
+        footer {
+            position: fixed;
             font-size: 14px;
-            color: #4d4d4d;
-            border-top: 1px solid #ddd;
-            margin-top: 20px;
-            margin-bottom: 20px;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
             font-size: 20px;
+            background-color: #f1f1f1;
+            color: #4d4d4d;
+            text-align: center;
+            line-height: 50px;
+            margin-bottom: 10px;
         }
 
     </style>
