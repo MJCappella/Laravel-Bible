@@ -12,6 +12,9 @@
         <li>
             Implement an intelligent search bar with Regex.
         </li>
+        <li>
+            Contributions  to the above are welcomed.
+        </li>
     </ul>
 </p>
 
