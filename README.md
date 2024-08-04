@@ -7,7 +7,7 @@
     <h2>TO DO:</h2>
     <ul>
         <li>
-            Add an AI search engine.
+            Add an AI search engine feature for detailed explanations.
         </li>
         <li>
             Implement an intelligent search bar.
