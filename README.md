@@ -20,3 +20,5 @@
 
 
 <img src="./screenshots/homepage.png">
+
+APIs are available in the routes folder
