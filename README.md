@@ -10,7 +10,7 @@
             Add an AI search engine feature for detailed explanations.
         </li>
         <li>
-            Implement an intelligent search bar.
+            Implement an intelligent search bar with Regex.
         </li>
     </ul>
 </p>
